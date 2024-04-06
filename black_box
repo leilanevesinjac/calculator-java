@@ -1,0 +1,20 @@
+Za testiranje koristen alat JUnit u sklopu IntelliJ okruzenja.
+provjera sabiranje, oduzimanje, mnozenje, dijeljenje i "error" poruka u slucaju neispravnog unosa.
+Test dijeljenja namjerno ostavljen kao failed, assert not equal: 18/2 !=9.0
+
+
+Prilikom sistemskog testiranja aplikacija ispravno postuje redosljed racunarskih
+operacija.
+
+Enter expression here (type 'exit' to quit):
+(3+4)+2
+ERROR
+3+5+7
+15.0
+3+5*8
+43.0
+7-2+9-100*0
+14.0
+
+Zamjerka: u slucaju bilo kakvog neispavnog unosa, aplikacija ispisuje gresku "error", dodati objasnjenje sta je
+pogresno, eg "wrong input, use numbers only"
